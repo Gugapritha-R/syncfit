@@ -1,17 +1,17 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../../components/Navbar'
 
-const Mindful = () => {
+
+const Bmi = () => {
   return (
     <div style={{
       backgroundColor: "black",
       minHeight: "100vh", 
-      color: "white" ,
+      color: "white", 
     }}>
       <Navbar/>
-      
     </div>
   )
 }
 
-export default Mindful
+export default Bmi
